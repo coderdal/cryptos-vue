@@ -1,5 +1,7 @@
 <template>
   <main>
+    <home-carousel />
+
     <h2>Lorem ipsum dolor sit amet consectetur.</h2>
     <h2>Lorem ipsum dolor sit amet consectetur.</h2>
     <h2>Lorem ipsum dolor sit amet consectetur.</h2>
@@ -57,11 +59,13 @@
 </template>
 
 <script>
+import homeCarousel from "./homeCarousel.vue";
+
 export default {
-    name: "homeMain"
-}
+  name: "homeMain",
+  components: { homeCarousel },
+};
 </script>
 
 <style>
-
 </style>
