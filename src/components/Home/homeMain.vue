@@ -2,6 +2,8 @@
   <main>
     <home-carousel />
 
+    <home-short-info />
+
     <h2>Lorem ipsum dolor sit amet consectetur.</h2>
     <h2>Lorem ipsum dolor sit amet consectetur.</h2>
     <h2>Lorem ipsum dolor sit amet consectetur.</h2>
@@ -60,12 +62,16 @@
 
 <script>
 import homeCarousel from "./homeCarousel.vue";
+import HomeShortInfo from "./homeShortInfo.vue";
 
 export default {
   name: "homeMain",
-  components: { homeCarousel },
+  components: { homeCarousel, HomeShortInfo },
 };
 </script>
 
-<style>
+<style scoped>
+main {
+  position: relative;
+}
 </style>
