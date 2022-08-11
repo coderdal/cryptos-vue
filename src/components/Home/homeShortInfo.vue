@@ -75,4 +75,13 @@ section .content .info-box .text p {
   margin-top: 5px;
   font-size: 0.9em;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 915px) {
+  section .content {
+    flex-direction: column;
+    gap: 25px;
+  }
+}
 </style>
