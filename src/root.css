@@ -31,3 +31,7 @@ body{
     color: var(--text-color);
     background: var(--body-bg-color);
 }
+
+.orange{
+    color: var(--orange-color);
+}
