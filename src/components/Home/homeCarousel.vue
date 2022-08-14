@@ -7,7 +7,6 @@
     :autoplay="true"
     :autoplayTimeout="5000"
     :centerMode="true"
-    @page-change="catchChange"
   >
     <slide>
       <div class="slide">
@@ -54,11 +53,6 @@ export default {
   components: {
     Carousel,
     Slide,
-  },
-  methods: {
-    catchChange() {
-      console.log("changed");
-    },
   },
 };
 </script>
